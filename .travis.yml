@@ -13,5 +13,5 @@ deploy:
   github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
   edge: true
   cleanup: true
-  keep-history: true
+  keep-history: false
   target_branch: master
