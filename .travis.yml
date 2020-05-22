@@ -4,6 +4,9 @@ node_js:
 before_script:
   - npm install @11ty/eleventy -g
 script: eleventy --pathprefix="/gboi/"
+branches:
+  only:
+  - dev
 deploy:
   local-dir: _site
   provider: pages
