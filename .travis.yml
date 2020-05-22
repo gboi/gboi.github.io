@@ -13,3 +13,5 @@ deploy:
     edge: true
     local_dir: _site
     target_branch: master
+    on:
+      branch: dev
