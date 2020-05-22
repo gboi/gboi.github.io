@@ -1,14 +1,10 @@
----
-title: gboi
-description: Making <a href="https://crescendotto.com" target="_blank">music</a> and writing <a href="https://github.com/gboi" rel="me" target="_blank">code</a>.<br/> I miss blogs, man!
----
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
 
   <meta charset="utf-8">
-  <title>{{title}} | {{pageTitle}}</title>
+  <title>gboi | Projects</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -16,9 +12,9 @@ description: Making <a href="https://crescendotto.com" target="_blank">music</a>
 
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-  <link rel="stylesheet" href="{{site.path}}/css/normalize.css">
-  <link rel="stylesheet" href="{{site.path}}/css/skeleton.css">
-  <link rel="stylesheet" href="{{site.path}}/css/custom.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/custom.css">
 
 
   <link rel="icon" type="image/png" href="img/favicon.png">
@@ -31,21 +27,25 @@ description: Making <a href="https://crescendotto.com" target="_blank">music</a>
 		<div class="three columns sidebar u-pull-left">
 			<header>
 				<a href="/">
-					<img src="{{site.path}}/img/avatar.png" class="center u-max-full-width">
+					<img src="/img/avatar.png" class="center u-max-full-width">
 				</a>
 				<h3 class="title">
-					<a href="/">{{title}}</a>
+					<a href="/">gboi</a>
 					<button id="nav-button" class="button-primary u-pull-right">&#9776;</button>
 				</h3>
 			</header>
 			<p id="bio">
-				{{description}}
+				Making <a href="https://crescendotto.com" target="_blank">music</a> and writing <a href="https://github.com/gboi" rel="me" target="_blank">code</a>.<br/> I miss blogs, man!
 			</p>
 			<div id="nav" class="hidden-on-mobile">
 				<ul>
-					{% for page in collections.pages %}
-						<li><a href="{{ page.url | url }}">{{ page.data.pageTitle }}</a></li>
-					{% endfor %}
+					
+						<li><a href="/gboi/pages/bio/">Bio</a></li>
+					
+						<li><a href="/gboi/pages/links/">Links</a></li>
+					
+						<li><a href="/gboi/pages/projects/">Projects</a></li>
+					
 				</ul>				
 				<footer>
 					Powered by <a href="https://www.11ty.dev" target="_blank">11ty</a>
@@ -54,16 +54,11 @@ description: Making <a href="https://crescendotto.com" target="_blank">music</a>
 		</div>
       <div class="nine columns u-pull-right">
 		<div class="header">
-			<h1>{{ pageTitle }}</h1>
+			<h1>Projects</h1>
 		</div>
 		<div id="content">
-			{{ content }}
-		{% if tags contains "posts" %}
-			<span class="signed">&#60;/cre&#62;</span>
-		</div>
-			<div id="comments">
-				<!--Commenti-->
-		{% endif %}
+			TBD
+		
 		</div>
       </div>
     </div>
