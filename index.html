@@ -1,0 +1,21 @@
+---
+layout: layout.liquid
+pageTitle: Learning one commit at a time
+pagination:
+  data: collections.posts
+  size: 2
+  alias: posts
+---
+{% for post in posts %}
+	<em class="date">{{ post.date | date: "%Y-%m-%d" }}</em>
+	<h3><a href="{{ post.url | url }}">{{ post.data.pageTitle }}</a></h3>
+{% endfor %}
+
+<div class="pages-navigation">
+{% if pagination.href.previous %}
+  <a href="{{pagination.href.previous}}"><< Newer</a>
+{% endif %}
+{% if pagination.href.next %}
+  <a href="{{pagination.href.next}}">Older >></a>
+{% endif %}
+</div>
