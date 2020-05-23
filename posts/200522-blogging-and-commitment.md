@@ -1,5 +1,6 @@
 ---
 pageTitle: Blogging and Commitment
+date: 2020-05-22
 ---
 
 It's 2006.
