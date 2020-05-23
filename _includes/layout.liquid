@@ -54,6 +54,9 @@ description: Making <a href="https://crescendotto.com" target="_blank">music</a>
 		</div>
       <div class="nine columns u-pull-right">
 		<div class="header">
+			{% if tags contains "posts" %}
+				<span class="date">{{date | date: "%d-%m-%Y"}}</span>
+			{% endif %}
 			<h1>{{ pageTitle }}</h1>
 		</div>
 		<div id="content">

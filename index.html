@@ -6,8 +6,8 @@ pagination:
   size: 6
   alias: posts
 ---
-{% for post in posts %}
-	<em class="date">{{ post.date | date: "%Y-%m-%d" }}</em>
+{% for post in posts reversed %}
+	<em class="date">{{ post.date | date: "%d-%m-%Y" }}</em>
 	<h3><a href="{{ post.url | url }}">{{ post.data.pageTitle }}</a></h3>
 {% endfor %}
 
