@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "clean-css": "^4.2.3",
+    "html-minifier": "^4.0.0",
     "markdown-it": "^11.0.0",
     "markdown-it-emoji": "^1.4.0"
   }

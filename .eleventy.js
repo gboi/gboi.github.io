@@ -8,6 +8,20 @@ const options = {
 module.exports = function(eleventyConfig) {
   let markdownLib = markdownIt(options).use(markdownItEmoji);
   eleventyConfig.setLibrary("md", markdownLib);
+  
+  eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
+    if( outputPath.endsWith(".html") ) {
+      let minified = htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true
+      });
+      return minified;
+    }
+
+    return content;
+  });
+  
   eleventyConfig.addPassthroughCopy('css');
   eleventyConfig.addPassthroughCopy('img');
   return {
