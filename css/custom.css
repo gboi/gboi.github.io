@@ -14,7 +14,7 @@
 	height: 50px;
 }
 
-h1, .signed {
+.header h1, .signed {
 	color: #b53a3a;
 }
 
@@ -44,7 +44,10 @@ h1, .signed {
 	display: none;
 }
 
-#content h3 {
+#content {
+	font-size: 1.8rem;
+}
+#content h2 {
 	margin: 0 0 10px 0;
 }
 #content em.date {
@@ -77,10 +80,6 @@ a:hover::before {
 footer {
 	font-size: 1rem;
 	text-align: center;
-}
-
-#content {
-	font-size: 1.8rem;
 }
 
 /* Larger than phablet */
