@@ -1,16 +1,11 @@
----
-title: gboi
-description: Making <a href="https://crescendotto.com" target="_blank">music</a> and writing <a href="https://github.com/gboi" rel="me" target="_blank">code</a>.<br/> I miss blogs, man!
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 
   <meta charset="utf-8">
-  <title>{{title}} | {{pageTitle}}</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <title>{{metadata.title}} | {{pageTitle}}</title>
+  <meta name="description" content="{{metadata.description}}">
+  <meta name="author" content="{{metadata.author}}">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -34,12 +29,12 @@ description: Making <a href="https://crescendotto.com" target="_blank">music</a>
 					<img src="{{site.path}}/img/avatar.png" class="center u-max-full-width">
 				</a>
 				<h3 class="title">
-					<a href="/">{{title}}</a>
+					<a href="/">{{metadata.title}}</a>
 					<button id="nav-button" class="button-primary u-pull-right">&#9776;</button>
 				</h3>
 			</header>
 			<p id="bio">
-				{{description}}
+				{{metadata.description}}
 			</p>
 			<div id="nav" class="hidden-on-mobile">
 				<ul>

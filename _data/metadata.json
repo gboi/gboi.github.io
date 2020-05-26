@@ -1,0 +1,15 @@
+{
+  "title": "gboi",
+  "url": "https://gboi.github.io",
+  "description": "Making <a href='https://crescendotto.com/' target='_blank'>music</a> and writing <a href='https://github.com/gboi' rel='me' target='_blank'>code</a>.<br/> I miss blogs, man!",
+  "feed": {
+    "subtitle": "Making music and writing code. I miss blogs, man!",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://gboi.github.io"
+  },
+  "author": {
+    "name": "Crescendo",
+    "email": "contact@crescendotto.com"
+  }
+}
