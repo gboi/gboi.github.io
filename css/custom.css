@@ -60,6 +60,14 @@ a, a:hover {
 	position: relative;
 }
 
+#content a, #content a:hover {
+	color: #2A55AC;
+}
+
+#content a::before {
+	background-color: #2A55AC;
+}
+
 a::before {
   content: "";
   position: absolute;
