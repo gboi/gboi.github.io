@@ -8,7 +8,7 @@ pagination:
 ---
 {% for post in posts reversed %}
 	<em class="date">{{ post.date | date: "%d-%m-%Y" }}</em>
-	<h3><a href="{{ post.url | url }}">{{ post.data.pageTitle }}</a></h3>
+	<h2><a href="{{ post.url | url }}">{{ post.data.pageTitle }}</a></h2>
 {% endfor %}
 
 <div class="pages-navigation">
