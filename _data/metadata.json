@@ -1,7 +1,7 @@
 {
   "title": "gboi",
   "url": "https://gboi.github.io",
-  "description": "Making <a href='https://crescendotto.com/' target='_blank'>music</a> and writing <a href='https://github.com/gboi' rel='me' target='_blank'>code</a>.<br/> I miss blogs, man!",
+  "description": "Making <a rel='me' href='https://crescendotto.com/'>music</a> and writing <a href='https://github.com/gboi' rel='me'>code</a>.<br/> I miss blogs, man!",
   "feed": {
     "subtitle": "Making music and writing code. I miss blogs, man!",
     "filename": "feed.xml",
