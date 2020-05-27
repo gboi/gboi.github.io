@@ -14,7 +14,7 @@
 	height: 50px;
 }
 
-.header h1, .signed {
+.header h1, h2, .signed {
 	color: #b53a3a;
 }
 
