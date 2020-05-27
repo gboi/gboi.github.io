@@ -11,7 +11,8 @@
 	color: #dae1e7;
 	text-align: left;
 	position: fixed;
-	height: 50px;
+	height: 55px;
+	z-index: 2;
 }
 
 .header h1, h2, .signed {
@@ -24,7 +25,7 @@
 
 #nav {
 	position: fixed;
-	top: 50px;
+	top: 55px;
 	right: 0px;
 	background: #142850;
 	width: 100%;
