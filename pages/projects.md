@@ -6,7 +6,12 @@ Here's a collection of games and scripts I've worked or I've been working on.
 
 ## Games
 
+### [Ciao Nonna](https://crescendo.itch.io/ciao-nonna)
+
+Short Game Boy RPG about a girl estranged from her family coming back to her hometown for her grandma's funeral. Made for the [I Can't Draw Jam](https://itch.io/jam/i-cant-draw-but-want-to-make-a-game-again).
+
 ### [Café Bouvardie](https://crescendo.itch.io/cafe-bouvardie)
+
 Short visual novel about time travel, coffee, and finding your place in the world. Made as a collab for [Yuri Game Jam 2019](https://itch.io/jam/yuri-game-jam-2019).
 
 ### [X to shoot](https://crescendo.itch.io/x-to-shoot)
